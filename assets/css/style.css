@@ -1,1 +1,87 @@
 @import "./reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b9dee6;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.user_card {
+    width: 200px;
+    text-align: center;
+
+    background-color: white;
+    border-radius: 2%;
+
+    margin: 10px;
+}
+
+.user_img_box {
+    margin: 20px 0;
+    position: relative;
+}
+
+.user_img {
+    width: 100px;
+    height: 100px;
+    border: 8px solid #efefef;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user_img_country {
+    width: 22px;
+    height: 22px;
+    border: 3px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+}
+
+.user_portrayal {
+    text-align: center;
+}
+
+.shadow {
+-webkit-box-shadow: 0 0 5px 0 rgba(148,148,148,1);
+-moz-box-shadow: 0 0 5px 0 rgba(148,148,148,1);
+box-shadow: 0 0 5px 0 rgba(148,148,148,1);
+}
+
+.user_name {
+    font-size: 18px;;
+    color: #fe470b;
+}
+
+.user_nickname {
+    font-size: 12px;
+    margin: 0.4em 0 2em;
+}
+
+.user_portrayal {
+    font-size: 10px;
+    line-height: 1.5em;
+    padding: 0 5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 30px;
+}
+
+.user_card_btn {
+    width: 15px;
+    height: 15px;
+}
+
